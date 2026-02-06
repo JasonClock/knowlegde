@@ -1,0 +1,25 @@
+{
+    "configurations": [
+        {
+            "name": "STM32F1",  
+            "cStandard": "c99",
+            "cppStandard": "c++11",
+            "compilerPath": "E:/VScode/path/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/arm-none-eabi-gcc.exe",
+            "defines": [
+                "__GNUC__",
+                "STM32F10X_LD_VL"
+            ],
+            "intelliSenseMode": "windows-gcc-arm",
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true
+            },
+            "includePath": [
+                "${workspaceFolder}/my_lib",
+                "${workspaceFolder}/std_periph_driver/inc",
+                "${workspaceFolder}/user",
+                "${workspaceFolder}/.VScode"
+            ]
+        }
+    ],
+    "version": 4
+}
